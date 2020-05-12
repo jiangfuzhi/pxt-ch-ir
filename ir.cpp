@@ -1,4 +1,3 @@
-
 #include "pxt.h"
 #include <map>
 #include <vector>
@@ -52,8 +51,9 @@ enum class RemoteButton {
 	  NUM9 = 0x4A
 };
 
-//% color=50 weight=19
+//% color=60 weight=19
 //% icon="\uf1eb"
+//% block="BitRover_IR"
 namespace Mbit_IR { 
   map<RemoteButton, vA> actions;
   map<RemoteButton, uint32_t> lastact;

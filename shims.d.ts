@@ -2,8 +2,9 @@
 
 
 
-    //% color=50 weight=19
+    //% color=60 weight=19
     //% icon="\uf1eb"
+    //% block="BitRover_IR"
 declare namespace Mbit_IR {
 
     /**
