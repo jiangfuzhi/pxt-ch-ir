@@ -2,12 +2,12 @@
 
 
     declare const enum Pins {
+    P5 = 17,
     P0 = 3,
     P1 = 2,
     P2 = 1,
     P3 = 4,
     P4 = 5,
-    P5 = 17,
     P6 = 12,
     P7 = 11,
     P8 = 18,
