@@ -51,7 +51,7 @@ enum class RemoteButton {
 	  NUM9 = 0x4A
 };
 
-//% color=60 weight=19
+//% color=#269900 weight=19
 //% icon="\uf1eb"
 //% block="BitRover_IR"
 namespace Mbit_IR { 
@@ -67,6 +67,7 @@ namespace Mbit_IR {
   * button pushed.
   */
   //% blockId=ir_received_left_event
+  //% weight=20
   //% block="on |%btn| button pressed"
   void onPressEvent(RemoteButton btn, Action body) {
     //if(actions.find(btn) == actions.end()) actions[btn] = new vector();
@@ -97,6 +98,7 @@ namespace Mbit_IR {
   * initialises local variablesssss
   */
   //% blockId=ir_init
+  //% weight=30
   //% block="connect ir receiver to %pin"
   void init(Pins pin){
     rx = new ReceiverIR((PinName)pin);
